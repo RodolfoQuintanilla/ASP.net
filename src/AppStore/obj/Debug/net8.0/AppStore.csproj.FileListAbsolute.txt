@@ -14,6 +14,7 @@ C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.csproj.CoreCompileInputs.cache
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.MvcApplicationPartsAssemblyInfo.cache
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.RazorAssemblyInfo.cache
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.RazorAssemblyInfo.cs
+C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.sourcelink.json
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets\msbuild.AppStore.Microsoft.AspNetCore.StaticWebAssets.props
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets\msbuild.build.AppStore.props
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AppStore.props
@@ -21,7 +22,9 @@ C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets.pack.json
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets.build.json
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\ASP.net\src\AppStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\scopedcss\bundle\AppStore.styles.css
+C:\ASP.net\src\AppStore\obj\Debug\net8.0\scopedcss\projectbundle\AppStore.bundle.scp.css
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.dll
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\refint\AppStore.dll
 C:\ASP.net\src\AppStore\obj\Debug\net8.0\AppStore.pdb
