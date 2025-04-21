@@ -6,20 +6,19 @@ public class LoadDatabase
 {
 
     public static async Task InsertarData(
-                                            DatabaseContext context,
-                                            UserManager<ApplicationUser> usuarioManager,
-                                            RoleManager<IdentityRole> roleManager
+                                            DatabaseContext context, 
+                                            UserManager<ApplicationUser> usuarioManager, 
+                                            RoleManager<IdentityRole> roleManager 
                                             )
     {
-        if (!roleManager.Roles.Any())
+        if(!roleManager.Roles.Any())
         {
             await roleManager.CreateAsync(new IdentityRole("ADMIN"));
         }
 
-        if (!usuarioManager.Users.Any())
+        if(!usuarioManager.Users.Any())
         {
-            var usuario = new ApplicationUser
-            {
+            var usuario = new ApplicationUser {
                 Nombre = "Vaxi Drez",
                 Email = "vaxi.drez.social@gmail.com",
                 UserName = "vaxi.drez"
@@ -29,7 +28,7 @@ public class LoadDatabase
             await usuarioManager.AddToRoleAsync(usuario, "ADMIN");
         }
 
-        if (!context.Categorias!.Any())
+        if(!context.Categorias!.Any())
         {
             await context.Categorias!.AddRangeAsync(
                 new Categoria { Nombre = "Drama" },
@@ -39,23 +38,21 @@ public class LoadDatabase
                 new Categoria { Nombre = "Aventura" }
             );
 
-            await context.SaveChangesAsync();
+           await context.SaveChangesAsync();
         }
 
-        if (!context.Libros!.Any())
+        if(!context.Libros!.Any())
         {
             await context.Libros!.AddRangeAsync(
-                new Libro
-                {
+                new Libro {
                     Titulo = "El Quijote de la Mancha",
-                    CrearDate = "06/06/2020",
+                    CreateDate = "06/06/2020",
                     Imagen = "quijote.jpg",
                     Autor = "Miguel de Cervantes"
                 },
-                new Libro
-                {
+                new Libro {
                     Titulo = "Harry Potter",
-                    CrearDate = "06/01/2021",
+                    CreateDate = "06/01/2021",
                     Imagen = "harry.jpg",
                     Autor = "Juan de la Vega"
                 }
@@ -64,17 +61,17 @@ public class LoadDatabase
             await context.SaveChangesAsync();
         }
 
-        if (!context.LibroCategoria!.Any())
+        if(!context.LibroCategorias!.Any())
         {
-            await context.LibroCategoria!.AddRangeAsync(
+            await context.LibroCategorias!.AddRangeAsync(
                 new LibroCategoria { CategoriaId = 1, LibroId = 1 },
                 new LibroCategoria { CategoriaId = 1, LibroId = 2 }
             );
-
+        
             await context.SaveChangesAsync();
         }
 
-
+        
     }
 
 }
