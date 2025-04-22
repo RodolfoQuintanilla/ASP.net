@@ -13,10 +13,10 @@ public class HomeController : Controller
         _libroService = libroService;
     }
 
-    public IActionResult Index(string term = "", int currentPage = 1)
+    public IActionResult Index(string term="", int currentPage = 1)
     {
-        var libroListVm = _libroService.List(term, true, currentPage);
-
+        var libroListVm =  _libroService.List(term, true, currentPage);
+        
         return View(libroListVm);
     }
 
@@ -30,5 +30,6 @@ public class HomeController : Controller
     {
         return View();
     }
+   
 
 }

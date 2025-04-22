@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vc9BPN001qvzbMUFzDUr9qjJsKbJzMFpLjRlDcPlYeA=",
+  "Hash": "TalK/vTLX4o/XrfUSgjwfoX/paAPPW8fDx8YQo+PRS0=",
   "Source": "AppStore",
   "BasePath": "_content/AppStore",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\ASP.net\\src\\AppStore\\wwwroot\\css\\form.css",
+      "Identity": "C:\\ASP.net\\src\\AppStore\\wwwroot\\css\\forms.css",
       "SourceId": "AppStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\ASP.net\\src\\AppStore\\wwwroot\\",
       "BasePath": "_content/AppStore",
-      "RelativePath": "css/form.css",
+      "RelativePath": "css/forms.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\form.css"
+      "OriginalItemSpec": "wwwroot\\css\\forms.css"
     },
     {
       "Identity": "C:\\ASP.net\\src\\AppStore\\wwwroot\\css\\style.css",

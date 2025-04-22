@@ -1,16 +1,17 @@
 @model AppStore.Models.Domain.Libro;
 @{
-    //ViewBag.Title = "Index";
+
 }
 
 <div class="movie-detail w-80 m-auto">
     <div class="img-container">
-        <img src="/Uploads/@Model/@Model.Imagen" alt="portada libro ">
+         <img alt="portada libro" src="/Uploads/@Model.Imagen" >
     </div>
+
 
     <div class="detail-container">
         <h3>@Model.Titulo</h3>
-        <h4>@Model.CategoriasNames</h4>
+        <h4>@Model.CategoriasNames</h3>
         <h4>@Model.CreateDate</h4>
         <h4>Autor: @Model.Autor</h4>
     </div>
